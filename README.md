@@ -1,4 +1,4 @@
-Travail de synthese 
+Travail de synthese Samuel Belanger
 
 -Creation d'un mini site web transactionnel
 -Utilisation de JSON pour "base de donnée"
