@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "brand": "Carpro",
+        "name": "Wash Box",
+        "price": 69.99,
+        "description": "Ensemble de produit de nettoyage",
+        "image": "wash-box.jpg"
+    },
+    {
+        "id": 2,
+        "brand": "Carpro",
+        "name": "Dhydrate",
+        "price": 19.99,
+        "description": "Serviette de séchage(microfibre)",
+        "image": "dhydrate.jpg"
+    },
+    {
+        "id": 3,
+        "brand": "Carpro",
+        "name": "Inside",
+        "price": 21.99,
+        "description": "Nettoyant pour intérieur",
+        "image": "inside.jpg"
+    },
+    {
+        "id": 4,
+        "brand": "Carpro",
+        "name": "IronX",
+        "price": 23.99,
+        "description": "Décontaminant particule métal",
+        "image": "ironx.jpg"
+    },
+    {
+        "id": 5,
+        "brand": "Carpro",
+        "name": "Wash Mitt",
+        "price": 31.99,
+        "description": "Gant de lavage en microfibre",
+        "image": "wash-mitt.jpg"
+    },
+    {
+        "id": 6,
+        "brand": "MaxShine",
+        "name": "Wheel Mitt",
+        "price": 18.99,
+        "description": "Gant de lavage en microfibre pour les roues",
+        "image": "wheel-mitt.jpg"
+    },
+    {
+        "id": 7,
+        "brand": "MaxShine",
+        "name": "Polisseuse DA 21mm",
+        "price": 359.99,
+        "description": "Polisseuse double action 21mm ",
+        "image": "m21.jpg"
+    },
+    {
+        "id": 8,
+        "brand": "MaxShine",
+        "name": "Polisseuse DA 15mm",
+        "price": 309.99,
+        "description": "Polisseuse double action 11mm ",
+        "image": "m15.jpg"
+    },
+    {
+        "id": 9,
+        "brand": "MaxShine",
+        "name": "Carpet Brush",
+        "price": 14.99,
+        "description": "Brosse à tapis pour cheveux et poils d'animaux",
+        "image": "pet-hair.jpg"
+    }
+]

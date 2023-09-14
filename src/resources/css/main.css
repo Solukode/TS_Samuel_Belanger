@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+h1 {
+  color:snow;
+  font-size: 3rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+h2 {
+  color:white ;
+  font-size: 2rem;
+  
+}
+
+h3 {
+  color: lawngreen;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+p {
+  color:cornflowerblue;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input {
+  align-self: center;
+}
+
+input[type=submit] {
+  padding: 0.25rem;
+}
+
+input[type=submit]:hover {
+  background-color: cornflowerblue;
+}
+
+input[type=text] {
+  text-align: center;
+  width: 2rem;
+}
+
+ul {
+  background-color: grey;
+  padding: 1rem 0rem;
+}
+
+li {
+  display: inline;
+  border-right: 1px solid black;
+}
+
+li:last-child {
+  float: right;
+}
+
+li a {
+  color: white;
+  padding: 1.1rem;
+  font-size: 1.2rem;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+td, th {
+  padding: 0.5rem;
+  border: 1px solid;
+}
+
+.card_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 0.75rem;
+  margin: 3rem auto;
+  max-width: 85vw;
+}
+
+.card {
+  background-color: rgba(78, 78, 80, 0.315);
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.5);  
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+}
+
+.card_image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+  
+.price {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+}
+
+.clear_cart {
+  display: block;
+  margin: 1rem;
+  padding: 0.75rem;
+  background-color: cornflowerblue;
+  border-radius: 0.5rem;
+  width: fit-content;
+  margin-left: auto;
+}
+  
+.message p{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.message .msgV {
+  color: lawngreen;
+}
+
+.message .msgR {
+  color: crimson;
+}
+
+.message .msgW {
+  color: white;
+}
+
+.cart_flex {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+#checkout .btn {
+  background: #00b894;
+  border: none;
+  width: 100%;
+  padding: 12px 10px 10px 10px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #ECECEC;
+  cursor: pointer;
+}
+
+#checkout .btn:hover {
+  background: #16A085;
+}
+
+#checkout label {
+  float: left;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#checkout #card-element {
+  margin-bottom: 1rem;
+}
+
+footer > div {
+  text-align: center;
+}
